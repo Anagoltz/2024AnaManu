@@ -9,7 +9,8 @@
     
 body {
 background-color: var(--cor-de-fundo);
-color: var(--branco); font-family: ‘Chakra Petch’, sans-serif;
+color: var(--branco); 
+font-family: ‘Chakra Petch’, sans-serif;
 }
 
 .conteudo-principal { 
@@ -22,8 +23,7 @@ width: 100%;
 margin: 0 auto;
  }
      
-.titulo-principal  { 
-text-align: left;
+.titulo-principal  { text-align: left;
 width: 100%;
 font-size: 32px;
  }
@@ -31,7 +31,6 @@ font-size: 32px;
 .titulo-principal span {
 color: var(--roxo);
 } 
-            
 .botao { font-family: «Crakra Petch», sans-serif;
 background-color: var(--botao-inativo);
 color: var(--branco); display: flex;
@@ -58,4 +57,34 @@ border-top: none;
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
     }
+.contador {
+ text-align: center;
+}
+#timer {
+    font-size: 60px;
+}
+.tempo {
+display: inline-block;
+  margin: 0 20px;
+}
+.numero {
+        color: white; /* Cor dos números */
+        
+        font-size: 120px; /* Tamanho da fonte para os números */
+        
+        margin: 0 20px; /* Espaçamento à esquerda e à direita dos números */
+        
+        .palavra {
+        
+        color: green; /* Cor das palavras +/
+        
+        font-size: 30px; /* Tamanho da fonte para as palavras */
+        
+        .contador h2 {
+        
+        color: #6FFF57; /* Cor do título "Tempo Para Completar Objetivo" */ margin-bottom: 20px; /* Adiciona espaço abaixo do h2 */
+        
+        .contador h3 {
+        
+        margin-top: 50px; /* Adiciona espaço acima do h3 */
     
